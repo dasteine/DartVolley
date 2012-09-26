@@ -42,7 +42,7 @@ Method 1 (Executable .jar):
 Method 2 (Manual Compilation):
 1. Download all .java files from main directory, ./DartVolleyView, and ./DartVolleyModel
 2. Download miglayout-4.0-swing.jar, and put it into parent directory of DartVolleyView and DartVolleyModel
-3. Execute win32_makefile.bat or linux_makefile to compile
+3. Execute 'win32_makefile.bat' or 'linux_makefile' to compile
 4. Execute DartVolley with command 'java -classpath "./miglayout-4.0-swing.jar" DartVolley'
 
 ============================== 2.2 Inputting tagged files ================================
