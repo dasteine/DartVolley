@@ -33,7 +33,17 @@ DartVolley v2.0 takes video files that have been tagged with specific volleyball
 ==========================================================================================
 
 ======================= 2.1 Compiling and Executing DartVolley v2.0 ======================
+NOTE: miglayout-4.0-swing.jar must be located in the same directory as DartVolley.jar for the executable jar file to work!
 
+Method 1 (Executable .jar):
+1. Download DartVolley.jar, miglayout-4.0-swing.jar, DartVolley.bat into the same folder
+2. Execute DartVolley.bat (Simply executes DartVolley.jar using java)
+
+Method 2 (Manual Compilation):
+1. Download all .java files from main directory, ./DartVolleyView, and ./DartVolleyModel
+2. Download miglayout-4.0-swing.jar, and put it into parent directory of DartVolleyView and DartVolleyModel
+3. Execute win32_makefile.bat or linux_makefile to compile
+4. Execute DartVolley with command 'java -classpath "./miglayout-4.0-swing.jar" DartVolley'
 
 ============================== 2.2 Inputting tagged files ================================
 
