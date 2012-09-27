@@ -25,6 +25,8 @@ DartVolley v2.0 is a volleyball scouting add-on application to the popular DartF
 
 DartVolley v2.0 takes video files that have been tagged with specific volleyball information, analyzes all the data, and quickly displays it in a common scouting setup.  Coaches on the bench receive live-updates after every play to allow for immediate game-plan implementation.
 
+Note: You will require a wireless router and must enable File Sharing to receive live-updates from a computer tagging a live match.
+
 
 
 
@@ -50,6 +52,8 @@ Method 2 (Manual Compilation):
 DartVolley v2.0 offers users two methods of specifying input .dartclip files.  The first is to select specific .dartclip files to be scanned (either for data on 'Waterloo' or 'Opponent').  The second is to specify folders, from which every *.dartclip file will be scanned (again either as 'Waterloo' or 'Opponent').
 
 On the 'Files' tab when DartVolley v2.0 is running, users can either Drag 'N Drop from native Windows applications, or select files using File Choosers, by pushing the 'Add Files' or 'Add Folders' buttons.
+
+In practice, DartVolley v2.0 connects to a computer running DartFish TeamPro through a wireless network.  The user inputs .dartclip files that have been shared across the private network, and then DartVolley v2.0 pulls new information from these files every 8 seconds (see Section 2.3).
 
 
 ================================= 2.3 Scanning Options ===================================

@@ -4,3 +4,5 @@
 4. On the 'Files' tab in DartVolley, set some combination of the files/folders found in "DartClip Examples" as the input files
 5. Choose scanning options (see README.txt)
 6. Start the scan
+
+Note: In practice, during step 4, user selects files that have been shared on a wireless network for DartVolley v2.0 to pull data from.
